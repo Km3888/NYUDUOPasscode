@@ -1,3 +1,5 @@
+<h1> Chinese </h1> 
+
 ###new feature
 自动复制到剪贴板
 
@@ -24,3 +26,25 @@
 
 
 ###搞不来首次使用的配置可以请kris上门服务（？
+
+
+<h1>English Translation</h1>
+
+###new feature:Automatically copy to clipboard
+
+
+##Cross-platform DUO passcode acquisition script
+
+
+Instructions:
+1. First run pip install pyotp， pip install pyperclip（or navigate to the base directory and run pip install -r requirements.txt）
+2.  Go to start.nyu.edu and under the 'additional settings' option register a new android tablet device. When given the QR code for registration, copy this link to the clipboard，
+3. Then open the secret.conf and paste the url
+4. Finally, run init.py
+
+Afterwards whenever you want an MFA passcode, you can just run passcode.py and a passcode will be copied to your clipboard.
+.py就会自动写进clipboard一个passcode啦
+
+To make it more convenient, these files can be easily accessed through a shortcut.
+
+The password copied to the clipboard can then be pasted into the 2nd password field.
