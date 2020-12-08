@@ -43,8 +43,9 @@ Instructions:
 4. Finally, run init.py
 
 Afterwards whenever you want an MFA passcode, you can just run passcode.py and a passcode will be copied to your clipboard.
-.py就会自动写进clipboard一个passcode啦
 
 To make it more convenient, these files can be easily accessed through a shortcut.
 
 The password copied to the clipboard can then be pasted into the 2nd password field.
+
+********All credit to the original author********
